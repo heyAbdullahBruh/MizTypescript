@@ -1,0 +1,29 @@
+{
+  "name": "typescript-learning",
+  "version": "1.0.0",
+  "description": "The repo is my typescript learning repo . In this repo I added all of my learning process. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyAbdullahBruh/MizTypescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "programming",
+    "coding",
+    "javascript",
+    "\\"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyAbdullahBruh/MizTypescript/issues"
+  },
+  "homepage": "https://github.com/heyAbdullahBruh/MizTypescript#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
