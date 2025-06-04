@@ -41,3 +41,4 @@ Students("Judians Mia", "321", "Hoonors"); //{ name: 'Judians Mia', id: '321', c
 Students("Miz Sumona", 143, "Honorns 3rd"); //{ name: 'Miz Sumona', id: 143, className: 'Honorns 3rd' }
 
 
+/* Note : number | string is a unioon data type  */
