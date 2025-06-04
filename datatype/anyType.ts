@@ -10,4 +10,4 @@ username=NaN;
 username=null;
 
 
-// console.log(username);
+console.log(username);
