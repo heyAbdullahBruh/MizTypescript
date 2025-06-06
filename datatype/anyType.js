@@ -7,4 +7,4 @@ username = null;
 username = undefined;
 username = NaN;
 username = null;
-// console.log(username);
+console.log(username);
