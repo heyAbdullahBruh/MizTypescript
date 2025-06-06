@@ -51,4 +51,4 @@ addPost({
   hide: true,
 });
 
-console.log(postsArr.length);
+console.log(postsArr.length); // 5
