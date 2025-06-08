@@ -1,4 +1,5 @@
 // Typescript class --->
+//  Key Features of OOP --> inheritence , abstraction,encapsulation , Polymorphism 
 class User {
   name: string;
   age: string | number;
