@@ -35,4 +35,4 @@ var Student = /** @class */ (function (_super) {
 }(User_1.User));
 var student1 = new Student('Farru', 18, 'A+', '12131');
 console.log(student1.stuInfo()); // Student { studentId: '12131', name: 'Farru', age: 18, bloodGroup: 'A+' }
-console.log(student1.result()); // { name: 'Farru', age: 18, bgGropu: 'A+' }
+console.log(student1.userInfo()); // { name: 'Farru', age: 18, bgGropu: 'A+' }

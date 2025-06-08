@@ -8,7 +8,7 @@ export class User {
     (this.name = name), (this.age = age), (this.bloodGroup = bloodGroup);
   }
 
-  result() {
+  userInfo() {
     return {
       name: this.name,
       age: this.age,

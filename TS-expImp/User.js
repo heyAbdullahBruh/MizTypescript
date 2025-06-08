@@ -5,7 +5,7 @@ var User = /** @class */ (function () {
     function User(name, age, bloodGroup) {
         (this.name = name), (this.age = age), (this.bloodGroup = bloodGroup);
     }
-    User.prototype.result = function () {
+    User.prototype.userInfo = function () {
         return {
             name: this.name,
             age: this.age,
