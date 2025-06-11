@@ -22,7 +22,6 @@ class Product implements IProduct {
 
 
 
-
 const mango = new Product("Mango", 26, 5, "HellowMiZTS231");
 
 console.log(mango.getProducts()); //{ pName: 'Mango', price: 26, rating: 5, vendor: 'HellowMiZTS231' }
