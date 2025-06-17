@@ -42,3 +42,28 @@ var Student = /** @class */ (function (_super) {
 }(User));
 var newStudent1 = new Student("Sam Oltman", 25, "O+", 213131);
 newStudent1.result(); //Id : 213131, Name : Sam Oltman , Age: 25 ,BloodGroup : O+
+var StudentOf8 = /** @class */ (function (_super) {
+    __extends(StudentOf8, _super);
+    function StudentOf8(name, age, bloodGroup, studentId, className) {
+        var _this = _super.call(this, name, age, bloodGroup, studentId) || this;
+        _this.name = name;
+        _this.age = age;
+        _this.bloodGroup = bloodGroup;
+        _this.studentId = studentId;
+        _this.className = className;
+        _this.data = function () {
+            return {
+                name: _this.name,
+                age: _this.age,
+                bloodGroup: _this.bloodGroup,
+                studentId: _this.studentId,
+                className: _this.className,
+            };
+        };
+        return _this;
+    }
+    return StudentOf8;
+}(Student));
+var newStudentOfClas8 = new StudentOf8("Dam Bltman", 22, "S+", 23422, 8);
+var newStudentOfClas8_1 = new StudentOf8("Nam Mltman", 35, "J+", "w3132", "Eight");
+console.log(newStudentOfClas8.data());
