@@ -45,7 +45,8 @@ interface IUser {
 
 let users: IUser[] = [];
 
-let user1: IUser = {
+let user1: IUser;
+user1 = {
   name: "Mohammad TOha",
   age: 37,
   bloodGroup: "A+",
