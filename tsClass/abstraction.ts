@@ -1,17 +1,17 @@
-// /** Abstrac hide implementation of something
+// /** Abstract hide implementation of something
 //  * object can't create in abstract class
-//  * if any class extends abstract class,then it must inherit all of abstract class
+//  * if any class extends abstract's class,then it must inherit all of abstract class items
 //  */
 
 abstract class User {
-  name: string;
+  public name: string;
   age: string | number;
 
   constructor(name: string, age: string | number) {
     (this.name = name), (this.age = age);
   }
 
-  abstract result(): any;
+  abstract result(): any; // Abstract method
 }
 
 // Type -1
@@ -22,7 +22,7 @@ class People extends User {
     this.workType = workType;
   }
 
-  result(): void {
+  result(): void { // Uses abstract method
     console.log(
       `workType : ${this.workType}, Name : ${this.name} , Age: ${this.age}`
     );
@@ -48,7 +48,7 @@ class Student extends User {
     this.bloodGroup = bloodGroup;
   }
 
-  result() {
+  result = () => { // Uses abstract method
     return {
       studentId: this.studentId,
       name: this.name,
